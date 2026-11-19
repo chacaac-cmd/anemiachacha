@@ -1,0 +1,619 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website edukasi kesehatan tentang penyakit anemia.">
+  <title>Kenali Anemia - Edukasi Kesehatan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="navbar">
+    <a href="#home" class="logo">
+      <span class="logo-icon">
+        <svg viewBox="0 0 48 48">
+          <path d="M24 5C18 14 9 21 9 30a15 15 0 0 0 30 0C39 21 30 14 24 5Z"/>
+          <path d="M17 31c1 5 4 7 8 8"/>
+        </svg>
+      </span>
+      <span>KENALI <b>ANEMIA</b><small>EDUKASI KESEHATAN</small></span>
+    </a>
+
+    <button class="menu-button" id="menuButton" aria-label="Buka menu">
+      <svg viewBox="0 0 24 24">
+        <path d="M3 6h18M3 12h18M3 18h18"/>
+      </svg>
+    </button>
+
+    <nav id="navigation">
+      <a href="#home">Home</a>
+      <a href="#profil">Profil Penyakit</a>
+      <a href="#gejala">Gejala</a>
+      <a href="#penyebab">Penyebab</a>
+      <a href="#pencegahan">Pencegahan</a>
+      <a href="#penanganan">Penanganan</a>
+      <a href="#konsultasi">Lembar Konsul</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+<!-- BAGIAN 1: HOME -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <span class="eyebrow">INFORMASI DAN EDUKASI KESEHATAN</span>
+    <h1>Kenali Anemia,<br><span>Jaga Kesehatan Darahmu.</span></h1>
+    <p>Anemia merupakan kondisi ketika tubuh memiliki kadar hemoglobin atau sel darah merah yang lebih rendah dari normal. Kenali tanda-tandanya, pahami penyebabnya, dan lakukan pencegahan sejak dini.</p>
+    <div class="hero-buttons">
+      <a href="#profil" class="button button-red">Pelajari Selengkapnya</a>
+      <a href="#pencegahan" class="button button-outline">Cara Pencegahan</a>
+    </div>
+  </div>
+
+  <div class="hero-art">
+    <div class="blood-cell cell-one"></div>
+    <div class="blood-cell cell-two"></div>
+    <div class="blood-cell cell-three"></div>
+    <div class="blood-cell cell-four"></div>
+    <div class="main-drop">
+      <svg viewBox="0 0 220 220">
+        <defs>
+          <radialGradient id="bloodGradient" cx="35%" cy="30%">
+            <stop offset="0%" stop-color="#ffb1b9"/>
+            <stop offset="55%" stop-color="#e52b45"/>
+            <stop offset="100%" stop-color="#97001e"/>
+          </radialGradient>
+        </defs>
+        <path d="M110 18C85 55 35 100 35 143a75 75 0 0 0 150 0c0-43-50-88-75-125Z" fill="url(#bloodGradient)"/>
+        <path d="M69 137c4-24 19-43 39-59" fill="none" stroke="#ffced3" stroke-width="9" stroke-linecap="round" opacity=".8"/>
+        <path d="M76 165c7 16 22 25 40 27" fill="none" stroke="#8d001b" stroke-width="6" stroke-linecap="round" opacity=".4"/>
+      </svg>
+    </div>
+    <div class="blood-label">KENALI KESEHATAN DARAH</div>
+  </div>
+</section>
+
+<div class="quick-section">
+  <div class="quick-card">
+    <div class="quick-icon">
+      <svg viewBox="0 0 24 24">
+        <path d="M12 2C9 7 5 10 5 15a7 7 0 0 0 14 0c0-5-4-8-7-13Z"/>
+      </svg>
+    </div>
+    <div><h3>Hemoglobin</h3><p>Protein dalam sel darah merah yang membawa oksigen.</p></div>
+  </div>
+
+  <div class="quick-card">
+    <div class="quick-icon">
+      <svg viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9"/>
+        <circle cx="12" cy="12" r="4"/>
+      </svg>
+    </div>
+    <div><h3>Sel Darah Merah</h3><p>Berperan mengantarkan oksigen ke seluruh tubuh.</p></div>
+  </div>
+
+  <div class="quick-card">
+    <div class="quick-icon">
+      <svg viewBox="0 0 24 24">
+        <path d="M2 12h4l3-7 4 14 3-7h6"/>
+      </svg>
+    </div>
+    <div><h3>Jaga Kesehatan</h3><p>Kenali gejala dan lakukan pemeriksaan bila diperlukan.</p></div>
+  </div>
+</div>
+
+
+<!-- BAGIAN 2: PROFIL PENYAKIT -->
+<section class="section" id="profil">
+  <div class="section-heading">
+    <span class="eyebrow">02 - PROFIL PENYAKIT</span>
+    <h2>Mengenal Penyakit <span>Anemia</span></h2>
+    <p>Ketahui pengertian, karakteristik, dan informasi umum mengenai anemia.</p>
+  </div>
+
+  <div class="profile-layout">
+    <div class="blood-illustration">
+      <div class="red-cell red-cell-a"></div>
+      <div class="red-cell red-cell-b"></div>
+      <div class="red-cell red-cell-c"></div>
+      <div class="red-cell red-cell-d"></div>
+      <div class="illustration-label">SEL DARAH MERAH</div>
+    </div>
+
+    <div class="profile-text">
+      <h3>Pengertian Anemia</h3>
+      <p>Anemia adalah kondisi ketika jumlah sel darah merah atau kadar hemoglobin dalam darah lebih rendah dari batas normal. Hemoglobin merupakan protein yang terdapat dalam sel darah merah dan berfungsi membawa oksigen dari paru-paru ke seluruh jaringan tubuh.</p>
+      <p>Ketika seseorang mengalami anemia, tubuh dapat menerima oksigen lebih sedikit sehingga menyebabkan kelelahan, kelemahan, pusing, dan gangguan aktivitas sehari-hari.</p>
+
+      <div class="info-note">
+        <strong>Informasi penting</strong>
+        <p>Anemia bukan hanya disebabkan oleh kekurangan zat besi. Kondisi ini juga dapat berkaitan dengan kekurangan vitamin, perdarahan, penyakit kronis, atau kelainan genetik.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="subheading">
+    <h3>Karakteristik Anemia</h3>
+    <p>Beberapa karakteristik yang dapat ditemukan pada penderita anemia.</p>
+  </div>
+
+  <div class="three-grid">
+    <article class="info-card">
+      <div class="card-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 2C9 7 5 10 5 15a7 7 0 0 0 14 0c0-5-4-8-7-13Z"/></svg>
+      </div>
+      <h3>Hemoglobin Rendah</h3>
+      <p>Kadar hemoglobin berada di bawah nilai normal sesuai usia, jenis kelamin, dan kondisi fisiologis.</p>
+    </article>
+
+    <article class="info-card">
+      <div class="card-icon">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/></svg>
+      </div>
+      <h3>Gangguan Sel Darah</h3>
+      <p>Jumlah, bentuk, ukuran, atau fungsi sel darah merah dapat mengalami perubahan tergantung jenis anemia.</p>
+    </article>
+
+    <article class="info-card">
+      <div class="card-icon">
+        <svg viewBox="0 0 24 24"><path d="M3 12h4l3-7 4 14 3-7h4"/></svg>
+      </div>
+      <h3>Pasokan Oksigen</h3>
+      <p>Kemampuan darah membawa oksigen ke jaringan tubuh dapat berkurang.</p>
+    </article>
+  </div>
+
+  <div class="subheading">
+    <h3>Informasi Umum</h3>
+  </div>
+
+  <div class="general-info">
+    <div><b>Nama penyakit</b><span>Anemia</span></div>
+    <div><b>Bagian tubuh terkait</b><span>Darah dan sistem peredaran darah</span></div>
+    <div><b>Komponen terkait</b><span>Sel darah merah dan hemoglobin</span></div>
+    <div><b>Pemeriksaan</b><span>Pemeriksaan darah dan evaluasi medis</span></div>
+    <div><b>Penanganan</b><span>Sesuai penyebab dan tingkat keparahan</span></div>
+  </div>
+</section>
+
+
+<!-- BAGIAN 3: GEJALA -->
+<section class="section soft-bg" id="gejala">
+  <div class="section-heading">
+    <span class="eyebrow">03 - TANDA DAN GEJALA</span>
+    <h2>Kenali Gejala <span>Anemia</span></h2>
+    <p>Gejala anemia dapat muncul secara perlahan dan berbeda pada setiap orang.</p>
+  </div>
+
+  <div class="symptom-intro">
+    <div class="symptom-heart">
+      <svg viewBox="0 0 120 120">
+        <path d="M60 99S15 71 15 42C15 17 46 12 60 36 74 12 105 17 105 42c0 29-45 57-45 57Z"/>
+        <path d="M26 58h20l9-17 13 36 9-19h18"/>
+      </svg>
+    </div>
+    <div>
+      <h3>Perhatikan Perubahan Kondisi Tubuh</h3>
+      <p>Keluhan yang terus berulang sebaiknya tidak diabaikan. Pemeriksaan kesehatan diperlukan untuk memastikan penyebabnya.</p>
+    </div>
+  </div>
+
+  <div class="symptom-columns">
+    <div class="symptom-box">
+      <div class="symptom-heading">
+        <span class="symptom-number">01</span>
+        <div><h3>Gejala Awal</h3><p>Keluhan yang dapat muncul pada anemia ringan atau tahap awal.</p></div>
+      </div>
+      <ul class="check-list">
+        <li>Mudah merasa lelah meskipun aktivitas ringan.</li>
+        <li>Tubuh terasa lemas dan kurang bertenaga.</li>
+        <li>Sering merasa pusing atau sakit kepala.</li>
+        <li>Sulit berkonsentrasi saat belajar atau bekerja.</li>
+        <li>Tangan dan kaki terasa dingin.</li>
+        <li>Wajah atau kulit tampak lebih pucat.</li>
+      </ul>
+    </div>
+
+    <div class="symptom-box advanced">
+      <div class="symptom-heading">
+        <span class="symptom-number">02</span>
+        <div><h3>Gejala Lanjutan</h3><p>Keluhan yang dapat muncul pada anemia lebih berat.</p></div>
+      </div>
+      <ul class="check-list">
+        <li>Sesak napas, terutama saat beraktivitas.</li>
+        <li>Jantung berdebar atau berdetak lebih cepat.</li>
+        <li>Kelelahan berat yang mengganggu kegiatan.</li>
+        <li>Pusing berat atau hampir pingsan.</li>
+        <li>Nyeri dada pada kondisi tertentu.</li>
+        <li>Pucat yang semakin jelas.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="warning-note">
+    <strong>Perhatian:</strong> Gejala di atas tidak selalu berarti seseorang mengalami anemia. Sesak napas berat, nyeri dada, pingsan, atau perdarahan hebat membutuhkan pertolongan medis segera.
+  </div>
+</section>
+
+
+<!-- BAGIAN 4: PENYEBAB DAN FAKTOR RISIKO -->
+<section class="section" id="penyebab">
+  <div class="section-heading">
+    <span class="eyebrow">04 - PENYEBAB DAN FAKTOR RISIKO</span>
+    <h2>Mengapa Anemia <span>Terjadi?</span></h2>
+    <p>Kenali berbagai penyebab dan faktor yang dapat meningkatkan kemungkinan seseorang mengalami anemia.</p>
+  </div>
+
+  <div class="subheading">
+    <h3>Penyebab Anemia</h3>
+    <p>Anemia dapat disebabkan oleh beberapa kondisi berikut.</p>
+  </div>
+
+  <div class="three-grid">
+    <article class="cause-card">
+      <div class="card-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 2C9 7 5 10 5 15a7 7 0 0 0 14 0c0-5-4-8-7-13Z"/></svg>
+      </div>
+      <h3>Kekurangan Zat Besi</h3>
+      <p>Tubuh tidak memiliki cukup zat besi untuk membentuk hemoglobin.</p>
+    </article>
+
+    <article class="cause-card">
+      <div class="card-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 3v18M3 12h18"/><circle cx="12" cy="12" r="9"/></svg>
+      </div>
+      <h3>Kekurangan Vitamin</h3>
+      <p>Kekurangan vitamin B12, folat, atau zat gizi lain dapat mengganggu pembentukan sel darah merah.</p>
+    </article>
+
+    <article class="cause-card">
+      <div class="card-icon">
+        <svg viewBox="0 0 24 24"><path d="M4 5h16v14H4z"/><path d="M8 9h8M8 13h5"/></svg>
+      </div>
+      <h3>Kehilangan Darah</h3>
+      <p>Perdarahan akibat menstruasi berat, cedera, atau gangguan saluran pencernaan.</p>
+    </article>
+
+    <article class="cause-card">
+      <div class="card-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 3 4 7v5c0 5 4 8 8 9 4-1 8-4 8-9V7z"/></svg>
+      </div>
+      <h3>Penyakit Kronis</h3>
+      <p>Penyakit tertentu dapat mengganggu produksi atau fungsi sel darah merah.</p>
+    </article>
+
+    <article class="cause-card">
+      <div class="card-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 3v18M5 8h14M5 16h14"/></svg>
+      </div>
+      <h3>Kelainan Genetik</h3>
+      <p>Kelainan bawaan seperti talasemia dapat memengaruhi pembentukan hemoglobin.</p>
+    </article>
+
+    <article class="cause-card">
+      <div class="card-icon">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l4 2"/></svg>
+      </div>
+      <h3>Infeksi dan Peradangan</h3>
+      <p>Infeksi atau peradangan tertentu dapat memengaruhi produksi sel darah merah.</p>
+    </article>
+  </div>
+
+  <div class="subheading">
+    <h3>Faktor Risiko Anemia</h3>
+    <p>Beberapa kelompok memiliki kemungkinan lebih tinggi mengalami anemia.</p>
+  </div>
+
+  <div class="risk-layout">
+    <div class="risk-card">
+      <span class="risk-tag">FAKTOR KELOMPOK</span>
+      <h3>Faktor yang Meningkatkan Risiko</h3>
+      <ul class="check-list">
+        <li>Remaja yang sedang mengalami masa pertumbuhan.</li>
+        <li>Perempuan dengan menstruasi berat atau berkepanjangan.</li>
+        <li>Ibu hamil dengan kebutuhan zat besi meningkat.</li>
+        <li>Orang dengan penyakit kronis tertentu.</li>
+        <li>Orang dengan riwayat keluarga kelainan darah.</li>
+        <li>Orang yang mengalami perdarahan berulang.</li>
+      </ul>
+    </div>
+
+    <div class="risk-card">
+      <span class="risk-tag">FAKTOR GAYA HIDUP</span>
+      <h3>Kebiasaan yang Perlu Diperhatikan</h3>
+      <ul class="check-list">
+        <li>Pola makan tidak seimbang.</li>
+        <li>Kurang mengonsumsi makanan sumber zat besi.</li>
+        <li>Diet ekstrem tanpa memperhatikan kebutuhan gizi.</li>
+        <li>Kurang mengonsumsi makanan sumber vitamin B12 dan folat.</li>
+        <li>Kebiasaan minum teh atau kopi berdekatan dengan waktu makan sumber zat besi.</li>
+        <li>Tidak melakukan pemeriksaan saat mengalami keluhan berulang.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+<!-- BAGIAN 5: PENCEGAHAN -->
+<section class="section soft-bg" id="pencegahan">
+  <div class="section-heading">
+    <span class="eyebrow">05 - PENCEGAHAN</span>
+    <h2>Cegah Anemia Mulai dari <span>Sekarang</span></h2>
+    <p>Menerapkan pola hidup sehat dan memenuhi kebutuhan gizi dapat membantu mengurangi risiko anemia.</p>
+  </div>
+
+  <div class="prevention-layout">
+    <div class="prevention-list">
+      <article class="prevention-item">
+        <div class="food-icon">
+          <svg viewBox="0 0 24 24"><path d="M4 7c4-5 12-5 16 0M4 7c0 8 4 13 8 15 4-2 8-7 8-15"/></svg>
+        </div>
+        <div><h3>Konsumsi Makanan Kaya Zat Besi</h3><p>Pilih daging, ikan, telur, hati, kacang-kacangan, dan sayuran hijau.</p></div>
+      </article>
+
+      <article class="prevention-item">
+        <div class="food-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2C9 7 5 10 5 15a7 7 0 0 0 14 0c0-5-4-8-7-13Z"/></svg>
+        </div>
+        <div><h3>Penuhi Kebutuhan Vitamin C</h3><p>Konsumsi buah seperti jeruk, jambu biji, dan sumber vitamin C lainnya untuk membantu penyerapan zat besi.</p></div>
+      </article>
+
+      <article class="prevention-item">
+        <div class="food-icon">
+          <svg viewBox="0 0 24 24"><path d="M4 5h16v14H4z"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>
+        </div>
+        <div><h3>Terapkan Pola Makan Seimbang</h3><p>Penuhi kebutuhan zat besi, protein, vitamin B12, folat, dan zat gizi lainnya.</p></div>
+      </article>
+
+      <article class="prevention-item">
+        <div class="food-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 3 4 7v5c0 5 4 8 8 9 4-1 8-4 8-9V7z"/><path d="m8 12 3 3 5-6"/></svg>
+        </div>
+        <div><h3>Lakukan Pemeriksaan Kesehatan</h3><p>Periksakan diri jika mengalami gejala yang mengarah pada anemia.</p></div>
+      </article>
+
+      <article class="prevention-item">
+        <div class="food-icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l4 2"/></svg>
+        </div>
+        <div><h3>Perhatikan Waktu Konsumsi Teh dan Kopi</h3><p>Hindari mengonsumsi teh atau kopi berdekatan dengan makanan kaya zat besi karena dapat mengurangi penyerapannya.</p></div>
+      </article>
+    </div>
+
+    <div class="food-panel">
+      <h3>Pilihan Makanan Sumber Zat Besi</h3>
+      <div class="food-illustration">
+        <div class="food-circle"><span>Fe</span></div>
+        <div class="food-caption">ZAT BESI</div>
+      </div>
+     <ol class="food-number-list">
+  <li>Daging merah dan hati</li>
+  <li>Ikan dan telur</li>
+  <li>Bayam dan sayuran hijau</li>
+  <li>Kacang-kacangan</li>
+  <li>Tahu dan tempe</li>
+  <li>Buah sumber vitamin C</li>
+</ol>
+    </div>
+  </div>
+
+  <div class="healthy-banner">
+    <div class="healthy-icon">
+      <svg viewBox="0 0 24 24"><path d="M12 3 4 7v5c0 5 4 8 8 9 4-1 8-4 8-9V7z"/><path d="m8 12 3 3 5-6"/></svg>
+    </div>
+    <div>
+      <h3>Mulai Kebiasaan Sehat Hari Ini!</h3>
+      <p>Jaga pola makan, istirahat cukup, dan jangan abaikan keluhan kesehatan yang muncul berulang.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- BAGIAN 6: PENANGANAN -->
+<section class="section" id="penanganan">
+  <div class="section-heading">
+    <span class="eyebrow">06 - PENANGANAN</span>
+    <h2>Penanganan dan Pengobatan <span>Anemia</span></h2>
+    <p>Penanganan anemia perlu disesuaikan dengan penyebab, kondisi, dan tingkat keparahan yang dialami pasien.</p>
+  </div>
+
+  <div class="treatment-intro">
+    <div class="treatment-art">
+      <svg viewBox="0 0 120 120">
+        <path d="M60 8C47 29 25 48 25 72a35 35 0 0 0 70 0C95 48 73 29 60 8Z"/>
+        <path d="M43 72c3 10 9 15 18 17"/>
+        <path d="m46 48 28 28m0-28L46 76" stroke-width="0"/>
+      </svg>
+    </div>
+    <div>
+      <h3>Pengobatan Berdasarkan Penyebab</h3>
+      <p>Dokter akan melakukan pemeriksaan untuk mengetahui penyebab anemia. Pengobatan tidak selalu sama karena setiap jenis anemia membutuhkan penanganan yang berbeda.</p>
+    </div>
+  </div>
+
+  <div class="treatment-grid">
+    <article class="treatment-card">
+      <div class="treatment-number">01</div>
+      <h3>Suplemen Zat Besi</h3>
+      <p>Dapat diberikan untuk anemia akibat kekurangan zat besi sesuai anjuran tenaga medis.</p>
+    </article>
+
+    <article class="treatment-card">
+      <div class="treatment-number">02</div>
+      <h3>Vitamin B12 dan Folat</h3>
+      <p>Diberikan apabila anemia disebabkan oleh kekurangan vitamin B12 atau folat.</p>
+    </article>
+
+    <article class="treatment-card">
+      <div class="treatment-number">03</div>
+      <h3>Penanganan Penyakit Penyebab</h3>
+      <p>Dokter dapat memberikan pengobatan untuk penyakit kronis, infeksi, atau kondisi lain yang menyebabkan anemia.</p>
+    </article>
+
+    <article class="treatment-card">
+      <div class="treatment-number">04</div>
+      <h3>Transfusi Darah</h3>
+      <p>Dapat dipertimbangkan pada kondisi tertentu berdasarkan hasil pemeriksaan dan penilaian dokter.</p>
+    </article>
+  </div>
+
+  <div class="health-service">
+    <div class="health-service-icon">
+      <svg viewBox="0 0 24 24">
+        <path d="M12 3 4 7v5c0 5 4 8 8 9 4-1 8-4 8-9V7z"/>
+        <path d="M12 8v8M8 12h8"/>
+      </svg>
+    </div>
+    <div>
+      <h3>Anjuran Mendapatkan Pelayanan Kesehatan</h3>
+      <p>Segera kunjungi Puskesmas, klinik, atau rumah sakit apabila mengalami kelelahan terus-menerus, pusing berulang, pucat, jantung berdebar, atau sesak napas. Tenaga kesehatan dapat melakukan pemeriksaan darah, menentukan penyebab, dan memberikan pengobatan yang tepat.</p>
+      <p>Jika mengalami sesak napas berat, nyeri dada, pingsan, atau perdarahan hebat, segera cari pertolongan medis darurat.</p>
+    </div>
+  </div>
+
+  <div class="warning-note">
+    <strong>Ingat:</strong> Jangan mengonsumsi suplemen zat besi atau obat anemia secara sembarangan. Pengobatan harus berdasarkan penyebab anemia dan anjuran tenaga medis.
+  </div>
+</section>
+
+
+<!-- BAGIAN 7: LEMBAR KONSUL -->
+<section class="section soft-bg" id="konsultasi">
+  <div class="section-heading">
+    <span class="eyebrow">07 - LEMBAR KONSUL</span>
+    <h2>Lembar Konsultasi <span>Anemia</span></h2>
+    <p>Gunakan formulir berikut untuk menyampaikan pertanyaan atau permintaan informasi mengenai anemia.</p>
+  </div>
+
+  <div class="consult-layout">
+    <div class="consult-info">
+      <div class="consult-symbol">
+        <svg viewBox="0 0 100 100">
+          <path d="M50 8C39 26 20 42 20 62a30 30 0 0 0 60 0C80 42 61 26 50 8Z"/>
+          <path d="M39 59h22M50 48v22"/>
+        </svg>
+      </div>
+      <h3>Butuh Informasi tentang Anemia?</h3>
+      <p>Kamu dapat menyampaikan pertanyaan mengenai gejala, pencegahan, pola makan, dan informasi umum seputar anemia.</p>
+      <div class="consult-reminder">
+        <strong>Perlu diperhatikan</strong>
+        <p>Formulir ini merupakan sarana permintaan informasi edukatif, bukan pengganti pemeriksaan dan konsultasi langsung dengan dokter.</p>
+      </div>
+    </div>
+
+    <form id="consultForm" class="consult-form">
+      <h3>Formulir Konsultasi</h3>
+
+      <label for="nama">Nama Lengkap</label>
+      <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+
+      <label for="email">Alamat Email</label>
+      <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+
+      <label for="telepon">Nomor Telepon</label>
+      <input type="tel" id="telepon" name="telepon" placeholder="Masukkan nomor telepon" required>
+
+      <label for="pesan">Pesan atau Pertanyaan</label>
+      <textarea id="pesan" name="pesan" rows="5" placeholder="Tuliskan pesan atau pertanyaan kamu..." required></textarea>
+
+      <button type="submit" class="button button-red submit-button">Kirim Permintaan Informasi</button>
+      <p id="formMessage" class="form-message" role="status"></p>
+      <small class="form-caption">Formulir demo. Data tidak dikirim atau disimpan ke server.</small>
+    </form>
+  </div>
+</section>
+
+
+<!-- BAGIAN 8: KONTAK -->
+<section class="section" id="kontak">
+  <div class="section-heading">
+    <span class="eyebrow">08 - KONTAK</span>
+    <h2>Informasi <span>Kontak</span></h2>
+    <p>Hubungi atau kunjungi fasilitas kesehatan untuk memperoleh informasi dan pelayanan kesehatan lebih lanjut.</p>
+  </div>
+
+  <div class="contact-grid">
+    <article class="contact-card">
+      <div class="contact-icon">
+        <svg viewBox="0 0 24 24">
+          <path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/>
+          <circle cx="12" cy="10" r="2.5"/>
+        </svg>
+      </div>
+      <h3>Alamat</h3>
+      <p>rsudbangsa - jl. K.H. Samanhudi No. 93, Sondakan, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57147, Indonesia.</p>
+    </article>
+
+    <article class="contact-card">
+      <div class="contact-icon">
+        <svg viewBox="0 0 24 24">
+          <rect x="3" y="5" width="18" height="14" rx="2"/>
+          <path d="m3 7 9 6 9-6"/>
+        </svg>
+      </div>
+      <h3>Email</h3>
+      <p>250205056@mhs.udb.ac.id</p>
+    </article>
+
+    <article class="contact-card">
+      <div class="contact-icon">
+        <svg viewBox="0 0 24 24">
+          <path d="M5 3h4l2 5-3 2a15 15 0 0 0 6 6l2-3 5 2v4c0 1-1 2-2 2C10 21 3 14 3 5c0-1 1-2 2-2Z"/>
+        </svg>
+      </div>
+      <h3>Nomor Telepon</h3>
+      <p>0857-48495989</p>
+    </article>
+
+    <article class="contact-card">
+      <div class="contact-icon">
+        <svg viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="9"/>
+          <path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/>
+        </svg>
+      </div>
+      <h3>Website</h3>
+      <p>@rsudbangsa-sehat</p>
+    </article>
+  </div>
+</section>
+
+
+<!-- REFERENSI -->
+<section class="section references">
+  <div class="section-heading">
+    <span class="eyebrow">SUMBER INFORMASI</span>
+    <h2>Referensi <span>Materi</span></h2>
+    <p>Materi edukasi dirangkum dari beberapa sumber informasi kesehatan.</p>
+  </div>
+
+  <div class="source-list">
+    <a href="https://www.siloamhospitals.com/informasi-siloam/artikel/apa-itu-anemia" target="_blank" rel="noopener">Siloam Hospitals - Apa Itu Anemia</a>
+    <a href="https://www.alodokter.com/anemia" target="_blank" rel="noopener">Alodokter - Anemia</a>
+    <a href="https://www.halodoc.com/artikel/ciri-ciri-penyakit-anemia-kenali-tanda-awalnya" target="_blank" rel="noopener">Halodoc - Ciri-Ciri Penyakit Anemia</a>
+    <a href="https://keslan.kemkes.go.id/view_artikel/4224/cegah-anemia-raih-masa-remaja-yang-sehat-aktif-dan-berprestasi" target="_blank" rel="noopener">Kementerian Kesehatan RI - Cegah Anemia</a>
+    <a href="https://www.nhlbi.nih.gov/health/anemia/treatment" target="_blank" rel="noopener">NHLBI - Anemia Treatment</a>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-logo">KENALI <b>ANEMIA</b></div>
+  <p>Website Edukasi Kesehatan tentang Anemia.</p>
+  <p class="copyright">copy 2026 Kenali Anemia. Dibuat untuk tujuan edukasi.</p>
+</footer>
+
+<button id="backTop" class="back-top" aria-label="Kembali ke atas">
+  <svg viewBox="0 0 24 24"><path d="m5 15 7-7 7 7"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
