@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     menuButton.onclick = function () {
     navigation.classList.toggle("active");
-    alert("Tombol menu berfungsi!");
+   navigation.classList.toggle("active");
     };
 
     navigation.querySelectorAll("a").forEach(function (link) {
