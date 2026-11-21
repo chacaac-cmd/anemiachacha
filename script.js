@@ -595,7 +595,7 @@ svg {
 
 .food-panel ul { list-style: none; font-size: 13px; color: #59484d; }
 .food-panel li { padding: 7px 0; border-bottom: 1px solid #f1cbd2; }
-.food-panel li::before { content: "•"; color: var(--red); font-weight: 900; margin-right: 10px; }
+.food-panel li::before { content: "Â•"; color: var(--red); font-weight: 900; margin-right: 10px; }
 
 .healthy-banner, .health-service {
   max-width: 1050px;
@@ -903,3 +903,19 @@ svg {
   .quick-card { padding: 16px; }
   .blood-illustration { min-height: 280px; }
 }
+document.addEventListener("DOMContentLoaded", function () {
+    const menuButton = document.getElementById("menuButton");
+    const navigation = document.getElementById("navigation");
+
+    if (menuButton && navigation) {
+        menuButton.addEventListener("click", function () {
+            navigation.classList.toggle("active");
+        });
+
+        navigation.querySelectorAll("a").forEach(function (link) {
+            link.addEventListener("click", function () {
+                navigation.classList.remove("active");
+            });
+        });
+    }
+});
