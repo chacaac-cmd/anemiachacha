@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     menuButton.onclick = function () {
-        navigation.classList.toggle("active");
-        console.log("Menu diklik:", navigation.classList.contains("active"));
+    navigation.classList.toggle("active");
+    alert("Tombol menu berfungsi!");
     };
 
     navigation.querySelectorAll("a").forEach(function (link) {
