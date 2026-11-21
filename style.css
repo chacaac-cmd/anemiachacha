@@ -595,7 +595,7 @@ svg {
 
 .food-panel ul { list-style: none; font-size: 13px; color: #59484d; }
 .food-panel li { padding: 7px 0; border-bottom: 1px solid #f1cbd2; }
-.food-panel li::before { content: "•"; color: var(--red); font-weight: 900; margin-right: 10px; }
+.food-panel li::before { content: "Â•"; color: var(--red); font-weight: 900; margin-right: 10px; }
 
 .healthy-banner, .health-service {
   max-width: 1050px;
@@ -985,4 +985,39 @@ svg {
   background: rgba(190, 20, 50, 0.85);
   transform: translateY(-3px);
 }
+/* PERBAIKAN MENU NAVIGASI HP */
+@media (max-width: 768px) {
+    .navbar {
+        position: relative;
+    }
 
+    .menu-button {
+        display: flex !important;
+        cursor: pointer;
+        position: relative;
+        z-index: 9999;
+    }
+
+    #navigation {
+        display: none !important;
+    }
+
+    #navigation.active {
+        display: flex !important;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background: white;
+        width: 220px;
+        padding: 15px;
+        border-radius: 15px;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        z-index: 9998;
+    }
+
+    #navigation.active a {
+        display: block;
+        padding: 12px;
+    }
+}
