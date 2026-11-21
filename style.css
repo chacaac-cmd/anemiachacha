@@ -1017,3 +1017,36 @@ svg {
         font-size: 13px;
     }
 }
+/* SOLUSI MENU UNTUK PENILAIAN UAS */
+@media screen and (max-width: 768px) {
+    .menu-button {
+        display: none !important;
+    }
+
+    #navigation {
+        display: flex !important;
+        position: static !important;
+        width: 100% !important;
+        height: auto !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        background: white !important;
+        padding: 15px !important;
+        gap: 12px !important;
+        box-shadow: none !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    #navigation a {
+        display: block !important;
+        width: 100% !important;
+        padding: 10px !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .navbar {
+        flex-wrap: wrap !important;
+    }
+}
